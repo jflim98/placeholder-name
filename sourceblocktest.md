@@ -11,17 +11,21 @@ multiline test
 
 ```source
 // this is a source code block
-1 + 1;
+const incr_one = (x) => x + 1;
+const incr_two = (x) => x + 2;
 ```
 
 ```source
-this is another source code block
-multiline test
-multiline test
-multiline test
+// this is another source code block
+incr_one(7);
 ```
 
 ```
 this is another normal code block
 multiline test
+```
+
+```source
+// this is the third source code bock
+incr_two(7);
 ```
