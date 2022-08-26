@@ -10,11 +10,8 @@ multiline test
 ```
 
 ```source
-this is a source code block
-multiline test
-multiline test
-multiline test
-multiline test
+// this is a source code block
+1 + 1;
 ```
 
 ```source
