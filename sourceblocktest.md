@@ -9,6 +9,16 @@ multiline test
 multiline test
 ```
 
+```source-autorun
+// this is a autorun source code block
+const incr_three = (x) => x + 3;
+```
+
+```source-autorun-hidden
+// this is a autorun and hidden source code block
+const incr_four = (x) => x + 4;
+```
+
 ```source
 // this is a source code block
 const incr_one = (x) => x + 1;
