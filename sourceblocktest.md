@@ -14,11 +14,6 @@ multiline test
 const incr_three = (x) => x + 3;
 ```
 
-```source-autorun
-// this is a autorun source code block
-const incr_three = (x) => x + 3;
-```
-
 ```source
 // this is a source code block
 const incr_one = (x) => x + 1;
