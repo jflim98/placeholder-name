@@ -1,3 +1,5 @@
+[config] chapter=1
+
 # SOURCE BLOCK TEST DEMO
 this is some stuff
 
