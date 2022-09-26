@@ -1,6 +1,7 @@
 [config] chapter=SOURCE_1 variant=default [env] {testEnv chapter=SOURCE_4} {testEnv2 chapter=}
 
-[]: # (This is a comment)
+[_metadata_:author]:- "test"
+[_metadata_:tags]:- "test tag"
 
 # SOURCE BLOCK TEST DEMO
 this is some stuff
