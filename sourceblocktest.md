@@ -1,11 +1,11 @@
-[config]:- '{"chapter":"SOURCE_1", "variant":"default"}'
-[env]:- '{"testEnv":{"chapter":"SOURCE_4"}, {"testEnv2": {"chapter":"SOURCE_1"}}'
-
-[//]:- 'testssdfsetetaerraer'
-
 ---
-i think this may not work
-we shall see
+config:
+  chapter: SOURCE_1
+  variant: default
+env:
+  testEnv:
+    chapter: SOURCE_4
+    variant: default
 ---
 
 # SOURCE BLOCK TEST DEMO
