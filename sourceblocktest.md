@@ -1,4 +1,5 @@
-[config]:- chapter=SOURCE_1 variant=default [env]:- {testEnv chapter=SOURCE_4} {testEnv2 chapter=SOURCE_1}
+[config]:- "chapter=SOURCE_1 variant=default"
+[env]:- "{testEnv chapter=SOURCE_4} {testEnv2 chapter=SOURCE_1}"
 
 # SOURCE BLOCK TEST DEMO
 this is some stuff
