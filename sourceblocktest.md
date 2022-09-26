@@ -1,4 +1,5 @@
-[config] chapter=1
+[config] {chapter: 1}
+[env] {testEnv: {chapter: 4}}
 
 # SOURCE BLOCK TEST DEMO
 this is some stuff
