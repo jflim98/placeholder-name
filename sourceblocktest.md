@@ -1,3 +1,13 @@
+---
+config:
+  chapter: SOURCE_4
+  variant: default
+env:
+  testEnv:
+    chapter: SOURCE_4
+    variant: default
+---
+
 # SOURCE BLOCK TEST DEMO
 this is some stuff
 
