@@ -1,6 +1,6 @@
 ---
 config:
-  chapter: SOURCE_2
+  chapter: SOURCE_4
   variant: default
 env:
   testEnv:
