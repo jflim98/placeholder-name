@@ -7,8 +7,9 @@ const Y = f => (g => g(g))(g => f(y => g(g)(y)));
 ```
 What is interesting about this incomprehensible mess of lambda expressions, which includes something as strange as g(g) not once but twice?
 
-The first Y combinators were conceived by [Haskell Curry](https://en.wikipedia.org/wiki/Haskell_Curry) to show that a minimal language (called the lambda calculus) consisting just of 
-expressions `E` of the forms `x => E` (that we call here lambda abstraction) and E1(E2) (function application) in principle suffices to 
+The first Y combinators were conceived by [Haskell Curry](https://en.wikipedia.org/wiki/Haskell_Curry) to show that a minimal language 
+(called the _lambda calculus_) consisting just of 
+expressions `E` of the forms `x => E` (that we call here _lambda abstraction_) and E1(E2) (_function application_) in principle suffices to 
 express every algorithm. More specifically, the applicative-order Y combinator allows us to express recursive algorithms in a sublanguage 
 of JavaScript that does not include declarations. Take for example the factorial function, and recall `factorial(5) = 5 * 4 * 3 * 2 * 1 = 120`. 
 Using the applicative-order Y combinator as Y, we can compute `factorial(5)` as follows:
