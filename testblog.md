@@ -1,7 +1,7 @@
 # The What, How, and Why of Y
 Copied from https://martin-henz.github.io/martin-henz/2022/02/17/the_y_combinator_explained_with_javascript.html
 ## The What of Y
-The following JavaScript expression is called the _applicative-order Y combinator_
+The following JavaScript expression is called the _applicative-order Y combinator_.
 ```source
 const Y = f => (g => g(g))(g => f(y => g(g)(y)));
 ```
