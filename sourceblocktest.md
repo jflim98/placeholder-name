@@ -21,7 +21,7 @@ multiline test
 
 ```source-autorun-hidden
 // this is a autorun and hidden source code block
-const incr_three = (x) => x + 3;
+const incr_three = (x) => x + 4;
 ```
 
 ```source
