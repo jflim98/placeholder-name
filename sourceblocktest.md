@@ -35,12 +35,19 @@ const incr_two = (x) => x + 2;
 incr_one(7);
 ```
 
+i can add things
+
 ```
 this is another normal code block
 multiline test
 ```
 
 ```source
+1+1;
+```
+
+```source
 // this is the third source code bock
 incr_two(7);
 ```
+eeeee
